@@ -40,3 +40,15 @@
 [submodule "vendor/vuejs-ai"]
 	path = vendor/vuejs-ai
 	url = https://github.com/vuejs-ai/skills
+[submodule "vendor/antfu-skills"]
+	path = vendor/antfu-skills
+	url = https://github.com/antfu/skills
+[submodule "vendor/find-skills"]
+	path = vendor/find-skills
+	url = https://github.com/vercel-labs/skills
+[submodule "vendor/skill-creator"]
+	path = vendor/skill-creator
+	url = https://github.com/anthropics/skills
+[submodule "vendor/baoyu-skills"]
+	path = vendor/baoyu-skills
+	url = https://github.com/JimLiu/baoyu-skills

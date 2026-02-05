@@ -1,7 +1,6 @@
-The MIT License (MIT)
+MIT License
 
-Copyright (c) 2025-present VoidZero Inc. & Contributors
-Copyright (c) 2024 Kevin Deng (https://github.com/sxzz)
+Copyright (c) 2025-PRESENT Anthony Fu <https://github.com/antfu>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

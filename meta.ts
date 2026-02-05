@@ -8,60 +8,62 @@ export interface VendorSkillMeta {
  * Repositories to clone as submodules and generate skills from source
  */
 export const submodules = {
-  vue: 'https://github.com/vuejs/docs',
-  nuxt: 'https://github.com/nuxt/nuxt',
-  vite: 'https://github.com/vitejs/vite',
-  unocss: 'https://github.com/unocss/unocss',
-  pnpm: 'https://github.com/pnpm/pnpm.io',
-  pinia: 'https://github.com/vuejs/pinia',
-  vitest: 'https://github.com/vitest-dev/vitest',
-  vitepress: 'https://github.com/vuejs/vitepress',
+  // vue: 'https://github.com/vuejs/docs',
+  // nuxt: 'https://github.com/nuxt/nuxt',
+  // vite: 'https://github.com/vitejs/vite',
+  // unocss: 'https://github.com/unocss/unocss',
+  // pnpm: 'https://github.com/pnpm/pnpm.io',
+  // pinia: 'https://github.com/vuejs/pinia',
+  // vitest: 'https://github.com/vitest-dev/vitest',
+  // vitepress: 'https://github.com/vuejs/vitepress',
 }
 
 /**
  * Already generated skills, sync with their `skills/` directory
  */
 export const vendors: Record<string, VendorSkillMeta> = {
-  'slidev': {
+  'antfu-skills': {
     official: true,
-    source: 'https://github.com/slidevjs/slidev',
+    source: 'https://github.com/antfu/skills',
     skills: {
-      slidev: 'slidev',
-    },
-  },
-  'vueuse': {
-    official: true,
-    source: 'https://github.com/vueuse/skills',
-    skills: {
-      'vueuse-functions': 'vueuse-functions',
-    },
-  },
-  'tsdown': {
-    official: true,
-    source: 'https://github.com/rolldown/tsdown',
-    skills: {
-      tsdown: 'tsdown',
-    },
-  },
-  'vuejs-ai': {
-    source: 'https://github.com/vuejs-ai/skills',
-    skills: {
+      'antfu': 'antfu',
+      'nuxt': 'nuxt',
+      'pinia': 'pinia',
+      'pnpm': 'pnpm',
+      'slidev': 'slidev',
+      'tsdown': 'tsdown',
+      'turborepo': 'turborepo',
+      'unocss': 'unocss',
+      'vite': 'vite',
+      'vitepress': 'vitepress',
+      'vitest': 'vitest',
       'vue-best-practices': 'vue-best-practices',
       'vue-router-best-practices': 'vue-router-best-practices',
       'vue-testing-best-practices': 'vue-testing-best-practices',
-    },
-  },
-  'turborepo': {
-    official: true,
-    source: 'https://github.com/vercel/turborepo',
-    skills: {
-      turborepo: 'turborepo',
-    },
-  },
-  'web-design-guidelines': {
-    source: 'https://github.com/vercel-labs/agent-skills',
-    skills: {
+      'vue': 'vue',
+      'vueuse-functions': 'vueuse-functions',
       'web-design-guidelines': 'web-design-guidelines',
+    },
+  },
+  'find-skills': {
+    official: true,
+    source: 'https://github.com/vercel-labs/skills',
+    skills: {
+      'find-skills': 'find-skills',
+    },
+  },
+  'skill-creator': {
+    official: true,
+    source: 'https://github.com/anthropics/skills',
+    skills: {
+      'skill-creator': 'skill-creator',
+    },
+  },
+  'baoyu-skills': {
+    official: true,
+    source: 'https://github.com/JimLiu/baoyu-skills',
+    skills: {
+      'baoyu-url-to-markdown': 'baoyu-url-to-markdown',
     },
   },
 }
