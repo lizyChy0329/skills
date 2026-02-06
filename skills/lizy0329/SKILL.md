@@ -1,9 +1,9 @@
 ---
-name: antfu
-description: Anthony Fu's opinionated tooling and conventions for JavaScript/TypeScript projects. Use when setting up new projects, configuring ESLint/Prettier alternatives, monorepos, library publishing, or when the user mentions Anthony Fu's preferences.
+name: lizy0329
+description: lizy0329's opinionated tooling and conventions for JavaScript/TypeScript projects. Use when setting up new projects, configuring ESLint/Prettier alternatives, monorepos, library publishing, or when the user mentions lizy0329's preferences.
 metadata:
-  author: Anthony Fu
-  version: "2026.02.03"
+  author: lizy0329
+  version: "2026.02.06"
 ---
 
 ## Coding Practices
@@ -46,17 +46,17 @@ metadata:
 
 ## Tooling Choices
 
-### @antfu/ni Commands
+### pnpm Commands
 
 | Command | Description |
 |---------|-------------|
-| `ni` | Install dependencies |
-| `ni <pkg>` / `ni -D <pkg>` | Add dependency / dev dependency |
-| `nr <script>` | Run script |
-| `nu` | Upgrade dependencies |
-| `nun <pkg>` | Uninstall dependency |
-| `nci` | Clean install (`pnpm i --frozen-lockfile`) |
-| `nlx <pkg>` | Execute package (`npx`) |
+| `pnpm i` | Install dependencies |
+| `pnpm i <pkg>` / `pnpm i -D <pkg>` | Add dependency / dev dependency |
+| `pnpm run <script>` | Run script |
+| `pnpm up` | Upgrade dependencies |
+| `pnpm un <pkg>` | Uninstall dependency |
+| `pnpm i --frozen-lockfile` | Clean install |
+| `pnpm dlx <pkg>` | Execute package (`npx`) |
 
 ### TypeScript Config
 

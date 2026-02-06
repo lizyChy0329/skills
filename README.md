@@ -1,4 +1,4 @@
-# Anthony Fu's Skills
+# lizyChy0329's Skills
 
 A curated collection of [Agent Skills](https://agentskills.io/home) reflecting [Anthony Fu](https://github.com/antfu)'s preferences, experience, and best practices, along with usage documentation for the tools.
 
@@ -9,13 +9,13 @@ A curated collection of [Agent Skills](https://agentskills.io/home) reflecting [
 ## Installation
 
 ```bash
-pnpx skills add antfu/skills --skill='*'
+pnpx skills add lizyChy0329/skills --skill='*'
 ```
 
 or to install all of them globally:
 
 ```bash
-pnpx skills add antfu/skills --skill='*' -g
+pnpx skills add lizyChy0329/skills --skill='*' -g
 ```
 
 Learn more about the CLI usage at [skills](https://github.com/vercel-labs/skills).
@@ -32,13 +32,13 @@ Manually maintained by Anthony Fu with his preferred tools, setup conventions, a
 
 | Skill | Description |
 |-------|-------------|
-| [antfu](skills/antfu) | Anthony Fu's preferences and best practices for app/library projects (eslint, pnpm, vitest, vue, etc.) |
+| [lizyChy0329](skills/lizyChy0329) | lizyChy0329's preferences and best practices for app/library projects (eslint, pnpm, vitest, vue, etc.) |
 
 ### Skills Generated from Official Documentation
 
 > Unopinionated but with tilted focus (e.g. TypeScript, ESM, Composition API, and other modern stacks)
 
-Generated from official documentation and fine-tuned by Anthony.
+Generated from official documentation and fine-tuned by lizyChy0329.
 
 | Skill | Description | Source |
 |-------|-------------|--------|
@@ -95,14 +95,6 @@ Fork this project to create your own customized skill collection.
 7. Ask your agent to `Generate skills for \<project\>` (recommended one at a time to manage token usage)
 
 See [AGENTS.md](AGENTS.md) for detailed generation guidelines.
-
-## Sponsors
-
-<p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/antfu/static/sponsors.svg">
-    <img src='https://cdn.jsdelivr.net/gh/antfu/static/sponsors.svg'/>
-  </a>
-</p>
 
 ## License
 
