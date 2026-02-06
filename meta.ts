@@ -32,7 +32,6 @@ export const vendors: Record<string, VendorSkillMeta> = {
       'pnpm': 'pnpm',
       'slidev': 'slidev',
       'tsdown': 'tsdown',
-      'turborepo': 'turborepo',
       'unocss': 'unocss',
       'vite': 'vite',
       'vitepress': 'vitepress',
@@ -64,6 +63,11 @@ export const vendors: Record<string, VendorSkillMeta> = {
     source: 'https://github.com/JimLiu/baoyu-skills',
     skills: {
       'baoyu-url-to-markdown': 'baoyu-url-to-markdown',
+      'baoyu-xhs-images': 'baoyu-xhs-images',
+      'baoyu-infographic': 'baoyu-infographic',
+      'baoyu-image-gen': 'baoyu-image-gen',
+      'baoyu-cover-image': 'baoyu-cover-image',
+      'baoyu-article-illustrator': 'baoyu-article-illustrator',
     },
   },
 }
